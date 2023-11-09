@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Hero from "./components/Hero/Hero";
+import TravelBlog from "./components/TravelBlog/TravelBlog";
+import TraData from "./TravelData";
+import "./App.css";
 
 function App() {
+  const TD = TraData.map((data) => {
+    //generalize the invokation of caed component inside app.js
+    return (
+      <TravelBlog
+        key={data.id}
+        placeHeading={data.placeHeading}
+        placeImg1={data.placeImg1}
+        placeImg2={data.placeImg2}
+        placeImg3={data.placeImg3}
+        placeDescription={data.placeDescription}
+      />
+    ); //end of the map function's callback body
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <section className="product-container">{TD}</section>
+      <br></br>
     </div>
   );
 }

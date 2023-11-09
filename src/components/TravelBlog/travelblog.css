@@ -1,0 +1,25 @@
+.product-container{
+    background-color: #E6E6E6;
+}
+  
+.travel-blog-container h1 {
+    font-size: 24px;
+    color: #5D5D81;
+}
+
+.travel-blog-image {
+    display: flex;
+    flex-wrap: wrap;   
+
+}
+
+.travel-blog-image img {
+    width: 30%; 
+    margin: 21px;
+}
+
+.travel-blog-container h2 {
+    font-size: 16px;
+    color: #484349;
+}
+  
