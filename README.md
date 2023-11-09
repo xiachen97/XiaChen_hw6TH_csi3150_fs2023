@@ -1,4 +1,4 @@
-# Below is a screenshot of my page
+# Below is a screenshot of my page...
 <img src="https://github.com/xiachen97/XiaChen_hw6TH_csi3150_fs2023/blob/master/src/Assets/hw6.jpeg">
 
 
