@@ -1,3 +1,6 @@
+<img src="https://github.com/xiachen97/XiaChen_hw6TH_csi3150_fs2023/blob/master/src/Assets/hw6.jpeg">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
